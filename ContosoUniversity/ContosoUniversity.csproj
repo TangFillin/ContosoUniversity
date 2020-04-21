@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ClassDiagram1.cd" />
+    <None Remove="ClassDiagram2.cd" />
+    <None Remove="ClassDiagram3.cd" />
+    <None Remove="ClassDiagram4.cd" />
+    <None Remove="ClassDiagram5.cd" />
+    <None Remove="ClassDiagram6.cd" />
+    <None Remove="ClassDiagram7.cd" />
+    <None Remove="ClassDiagram8.cd" />
+    <None Remove="ClassDiagram9.cd" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+  </ItemGroup>
+
+</Project>
