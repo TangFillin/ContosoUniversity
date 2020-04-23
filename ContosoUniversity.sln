@@ -4,8 +4,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoUniversity", "ContosoUniversity\ContosoUniversity.csproj", "{1EF22A0C-58AB-49D2-BCD5-AC22C467C408}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A02C660-019F-4531-95A4-C50153E6C5C5} = {3A02C660-019F-4531-95A4-C50153E6C5C5}
+		{000153E8-92D5-4351-9DE7-310C4624CB13} = {000153E8-92D5-4351-9DE7-310C4624CB13}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoUniversity.IService", "ContosoUniversity.IService\ContosoUniversity.IService.csproj", "{AEC6DC83-35B5-4DBA-91B6-5C1DCFDAF350}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoUniversity.IService", "ContosoUniversity.IService\ContosoUniversity.IService.csproj", "{AEC6DC83-35B5-4DBA-91B6-5C1DCFDAF350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoUniversity.Domain", "ContosoUniversity.Domain\ContosoUniversity.Domain.csproj", "{3A02C660-019F-4531-95A4-C50153E6C5C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoUniversity.Entity", "ContosoUniversity.Entity\ContosoUniversity.Entity.csproj", "{000153E8-92D5-4351-9DE7-310C4624CB13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoUniversity.Repository", "ContosoUniversity.Repository\ContosoUniversity.Repository.csproj", "{F7DB7BA9-D884-43A0-A62F-2311FA8B3386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoUniversity.Data", "ContosoUniversity.Data\ContosoUniversity.Data.csproj", "{E5316E4F-0784-4B18-B026-FF7244BDD5FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoUniversity.Utility", "ContosoUniversity.Utility\ContosoUniversity.Utility.csproj", "{A638D0A8-135F-42F4-8958-F00D978651D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +35,26 @@ Global
 		{AEC6DC83-35B5-4DBA-91B6-5C1DCFDAF350}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEC6DC83-35B5-4DBA-91B6-5C1DCFDAF350}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEC6DC83-35B5-4DBA-91B6-5C1DCFDAF350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A02C660-019F-4531-95A4-C50153E6C5C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A02C660-019F-4531-95A4-C50153E6C5C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A02C660-019F-4531-95A4-C50153E6C5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A02C660-019F-4531-95A4-C50153E6C5C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{000153E8-92D5-4351-9DE7-310C4624CB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000153E8-92D5-4351-9DE7-310C4624CB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000153E8-92D5-4351-9DE7-310C4624CB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000153E8-92D5-4351-9DE7-310C4624CB13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7DB7BA9-D884-43A0-A62F-2311FA8B3386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7DB7BA9-D884-43A0-A62F-2311FA8B3386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7DB7BA9-D884-43A0-A62F-2311FA8B3386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7DB7BA9-D884-43A0-A62F-2311FA8B3386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5316E4F-0784-4B18-B026-FF7244BDD5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5316E4F-0784-4B18-B026-FF7244BDD5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5316E4F-0784-4B18-B026-FF7244BDD5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5316E4F-0784-4B18-B026-FF7244BDD5FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A638D0A8-135F-42F4-8958-F00D978651D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A638D0A8-135F-42F4-8958-F00D978651D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A638D0A8-135F-42F4-8958-F00D978651D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A638D0A8-135F-42F4-8958-F00D978651D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

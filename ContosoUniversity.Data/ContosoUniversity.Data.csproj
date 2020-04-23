@@ -9,7 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ContosoUniversity.Data\ContosoUniversity.Data.csproj" />
     <ProjectReference Include="..\ContosoUniversity.Entity\ContosoUniversity.Entity.csproj" />
   </ItemGroup>
 
